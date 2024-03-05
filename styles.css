@@ -1,0 +1,40 @@
+body {
+    background-color: E1DFDE;
+    margin: 0;
+}
+
+.navBar{
+    display: flex;
+    direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.navButtonDiv{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.navText{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+    
+}
+
+.videoEditorDiv{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.mainText{
+    text-decoration: none;
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+}
+
