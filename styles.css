@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* <HOME PAGE> */
+
 .backgroundVideo{
     position: absolute;
     right: 0;
@@ -94,7 +96,7 @@ body {
 
 }
 
-.nameText{
+.secoundText{
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -108,9 +110,60 @@ body {
 
 }
 
-.nameText:hover{
+.secoundText:hover{
     font-size: 60px;
 }
+
+/* <HOME PAGE> */
+
+
+/* <CONTACT PAGE> */
+
+.contactDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    margin-top: 100px;
+}
+
+.labelDiv{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: 1a1a1a;
+    margin-bottom: 20px;
+}
+
+
+
+.fa-linkedin, .fa-envelope, .fa-instagram{
+    color: whitesmoke;
+    font-size: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.fa-linkedin:hover, .fa-envelope:hover, .fa-instagram:hover{
+    font-size: 50px;
+}
+
+
+.labelText{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.labelText:hover{
+    font-size: 28px;
+}
+
 
 
 
